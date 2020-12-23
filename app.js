@@ -1,3 +1,15 @@
+//topnav 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
 
 //Header Intro Animation
 const backsplash = document.querySelector('.backsplash');
@@ -29,8 +41,8 @@ tl.fromTo(backsplash, 1, {height: "0%" }, { height: "80%", ease: Power2.easeInOu
 // ------------------ Work Experience Card Animations ---------------------------//
 
 //Movement Animation to happen
-const card = document.querySelector(".card");
-const container = document.querySelector(".container");
+/*const card = document.querySelector(".card");
+const container = document.querySelector(".container1");
 //Items
 const title = document.querySelector(".title");
 const company = document.querySelector(".companyLogo img");
@@ -58,4 +70,4 @@ container.addEventListener("mousemove", (e) => {
     title.style.transform = "translateZ(0px)";
     company.style.transform = "translateZ(0px) rotateZ(0deg)";
     description.style.transform = "translateZ(0px)";
-  });
+  });*/
